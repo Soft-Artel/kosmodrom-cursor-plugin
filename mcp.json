@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "kosmodrom": {
+      "url": "https://mcp.kosmodrom.ai"
+    },
+    "kosmodrom-token": {
+      "url": "https://mcp-pat.kosmodrom.ai",
+      "headers": {
+        "Authorization": "Bearer ${KOSMODROM_TOKEN}"
+      }
+    }
+  }
+}

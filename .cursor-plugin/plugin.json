@@ -1,0 +1,25 @@
+{
+  "name": "kosmodrom",
+  "version": "1.0.0",
+  "description": "Kosmodrom task tracker in Cursor: projects, features, tasks, bugs, team chats and code context through the Kosmodrom MCP server.",
+  "author": {
+    "name": "Soft-Artel",
+    "email": "info@soft-artel.com"
+  },
+  "homepage": "https://kosmodrom.ai",
+  "repository": "https://github.com/Soft-Artel/kosmodrom-cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": ["kosmodrom", "task-tracker", "project-management", "mcp", "tasks", "bugs"],
+  "mcpServers": "mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "KOSMODROM_TOKEN": {
+        "type": "string",
+        "title": "Kosmodrom personal access token",
+        "description": "Only for the kosmodrom-token server: a personal token from the Kosmodrom profile, AI agents tab (kmt_...). The kosmodrom server signs in with OAuth and needs no token."
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+# Entry for the Docker MCP Catalog (github.com/docker/mcp-registry, servers/kosmodrom/server.yaml).
+# Remote server on the personal-token host; check the field names against the registry's CONTRIBUTING.md when submitting.
+name: kosmodrom
+type: remote
+dynamic:
+  tools: true
+meta:
+  category: productivity
+  tags:
+    - productivity
+    - project-management
+    - task-tracker
+about:
+  title: Kosmodrom
+  description: Task tracker for product teams - projects, features, tasks, bugs, team chats and code context.
+  icon: https://mcp.kosmodrom.ai/icon.png
+remote:
+  transport_type: streamable-http
+  url: https://mcp-pat.kosmodrom.ai
+  headers:
+    Authorization: "Bearer ${KOSMODROM_TOKEN}"
+config:
+  secrets:
+    - name: kosmodrom.token
+      env: KOSMODROM_TOKEN
+      example: kmt_your_personal_token
