@@ -19,6 +19,14 @@ The plugin declares two connections to the same server - enable the one that fit
 A personal token is issued in the Kosmodrom profile, **AI agents** tab. Tokens have the `read` scope and, optionally,
 `write`; a token can be revoked in the profile at any time.
 
+## ChatGPT package
+
+`chatgpt/` holds the ChatGPT plugin package in the [Agent Plugins 1.0](https://agent-plugins.org) format: `plugin.json`
+with the OpenAI listing, review test cases and release notes, and `mcp.json` with one server — the OAuth host
+`https://mcp.kosmodrom.ai`. `scripts/build-chatgpt.sh` builds `dist/kosmodrom-chatgpt-<version>.zip` for upload on
+the OpenAI Platform **Plugins** page. Reviewer credentials, the demo video and the domain verification token are entered
+in the portal, never in the package.
+
 ## Install
 
 - From the Cursor Marketplace: search for **Kosmodrom**.
