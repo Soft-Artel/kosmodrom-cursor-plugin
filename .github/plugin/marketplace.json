@@ -1,0 +1,19 @@
+{
+  "name": "soft-artel",
+  "metadata": {
+    "description": "Kosmodrom plugin for VS Code and GitHub Copilot",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "SOFTARTEL LIMITED",
+    "email": "info@soft-artel.com"
+  },
+  "plugins": [
+    {
+      "name": "kosmodrom",
+      "source": "./plugins/vscode",
+      "description": "Kosmodrom task tracker in VS Code and GitHub Copilot: projects, features, tasks, bugs, team chats and code context through the Kosmodrom MCP server.",
+      "version": "1.0.0"
+    }
+  ]
+}

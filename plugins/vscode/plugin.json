@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "kosmodrom",
+  "version": "1.0.0",
+  "description": "Kosmodrom task tracker in VS Code and GitHub Copilot: projects, features, tasks, bugs, team chats and code context through the Kosmodrom MCP server.",
+  "author": {
+    "name": "SOFTARTEL LIMITED",
+    "email": "info@soft-artel.com",
+    "url": "https://www.kosmodrom.ai/en/"
+  },
+  "homepage": "https://www.kosmodrom.ai/en/",
+  "repository": "https://github.com/Soft-Artel/kosmodrom-plugin",
+  "license": "MIT",
+  "keywords": ["kosmodrom", "task-tracker", "project-management", "mcp", "tasks", "bugs"],
+  "extensions": {
+    "com.github.copilot": {
+      "logo": "assets/logo.png"
+    }
+  }
+}

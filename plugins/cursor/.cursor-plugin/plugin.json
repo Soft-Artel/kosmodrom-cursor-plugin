@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Kosmodrom task tracker in Cursor: projects, features, tasks, bugs, team chats and code context through the Kosmodrom MCP server.",
   "author": {
-    "name": "Soft-Artel",
+    "name": "SOFTARTEL LIMITED",
     "email": "info@soft-artel.com"
   },
-  "homepage": "https://kosmodrom.ai",
-  "repository": "https://github.com/Soft-Artel/kosmodrom-cursor-plugin",
+  "homepage": "https://www.kosmodrom.ai/en/",
+  "repository": "https://github.com/Soft-Artel/kosmodrom-plugin",
   "license": "MIT",
   "logo": "assets/logo.svg",
   "keywords": ["kosmodrom", "task-tracker", "project-management", "mcp", "tasks", "bugs"],

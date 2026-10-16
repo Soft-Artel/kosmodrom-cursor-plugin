@@ -1,0 +1,17 @@
+{
+  "name": "soft-artel",
+  "owner": {
+    "name": "SOFTARTEL LIMITED",
+    "email": "info@soft-artel.com"
+  },
+  "metadata": {
+    "description": "Kosmodrom plugin for Cursor"
+  },
+  "plugins": [
+    {
+      "name": "kosmodrom",
+      "source": "plugins/cursor",
+      "description": "Kosmodrom task tracker in Cursor: projects, features, tasks, bugs, team chats and code context through the Kosmodrom MCP server."
+    }
+  ]
+}
